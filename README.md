@@ -1,6 +1,6 @@
 # Grupo_4_ProyectoDH
 
-En el presente proyecto desarroyado por el grupo 4 crearemos un sitio web enfocado en la compra y venta de nft el cual tendra como cliente objetivo todo aquel individio que desea comercializar o adquirir nfts.
+En el presente proyecto desarroyado por el grupo 4 crearemos un sitio web enfocado en la compra y venta de tokens no fungibles o mas conocidos como nft,donde el proyecto tendra como cliente objetivo todo aquel individio que desea comercializar o adquirir nfts.
 Para alcanzar ese segmento nuestro sitio se diferenciara por intentar ser competitivo en precios con respecto a las otras paginas.
 
 un listado de sitios webs que ofrecen este servicio son:
