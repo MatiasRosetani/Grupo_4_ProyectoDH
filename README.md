@@ -28,3 +28,7 @@ https://www.bakeryswap.org/#/explore
 https://rarible.com/
 https://superrare.com/
 https://www.larvalabs.com/
+
+Sprint 2:
+
+Link de trello:https://trello.com/invite/b/ajlK2XdY/ATTIb034a56ee673778de6569c8454e385b0E84227E1/proyecto-dh
