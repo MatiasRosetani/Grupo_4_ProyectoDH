@@ -1,0 +1,273 @@
+*{
+   margin: 0;
+   padding: 0;
+box-sizing: border-box;
+}
+
+body{
+background-color: whitesmoke;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+#nombre-web{
+font-size: 1rem;
+display: flex;
+align-items: center;
+margin: 10px;
+}
+
+.logo{
+    margin-left: 10px;
+    width: 5vw;
+    height: 100%;
+}
+
+.navbar{
+    background-color: whitesmoke;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.seccionnavbar{
+    width: 22%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 0.5rem;
+    align-items: center;
+}
+
+.seccionnavbar li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.boton{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 0.5rem;
+}
+
+input[type="search"]{
+background-color: white;
+width: 50vw;
+height: 5vh;
+border-radius: 10px;
+border: 0;
+}
+
+::placeholder{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.barra-busqueda{
+    display: flex;
+    align-items: center;
+    border: 0;
+}
+
+.prod-descripcion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 70vh;
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
+
+.prod-img {
+display: flex;
+width: 40%;
+height: 100%;
+}
+
+.descripcion-nft{
+    display: flex;
+    background-color: white;
+    color: black;
+    align-items: center;
+    border-radius: 5px;
+    font-size: x-large;
+    width: 30%;
+    height: 100%;
+    margin-left: 2vw;
+    justify-content: center;
+}
+
+button[type="submit"]{
+    width: 80vw;
+    height: 10vh;
+    border: 0;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.comprar{
+    background-color: violet;
+    display: inline-block;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 3vh;
+    margin-left: 10vw;
+    width: 30vw;
+    text-align: center;
+    
+}
+
+.footer{
+background-color: aqua;
+}
+.footer{
+background-color: aqua;
+}
+.footer{
+background-color: aqua;
+}
+
+footer{
+    margin-top: 20vh;
+    height: 30vw;
+}
+
+.secciones-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mp{
+font-size: large;
+background-color: white;
+padding: 10px;
+}
+
+.mc{
+    font-size: large;
+background-color: white;
+padding: 10px;
+}
+
+.sn{
+    font-size: large;
+background-color: white;
+padding: 10px;
+}
+
+.contacto{
+    font-size: large;
+background-color: white;
+padding: 10px;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 479px){    /*mobile*/
+.navbar {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height:40% ;
+    margin: 20px;
+}
+
+.boton{
+    font-size: 0.5rem;
+}
+
+input[type="search"]{
+    background-color: white;
+    width: 35vw;
+    height: 5vh;
+    margin-right: 10vw;
+    border-radius: 10px;
+    border: 0;
+    }
+
+.barra-busqueda{
+        display: flex;
+        align-items: center;
+        width: 30%;
+        border: 0;
+    }
+
+.prod-descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+}
+.prod-img{
+width: 60vw;
+height: 40vh;
+}
+.descripcion-nft{
+    margin-top: 2vh;
+    width: 60vw;
+    height: 15vh;
+    font-size: 0.5rem;
+    font-size: large;
+}
+.comprar{
+    margin-top: 5px;
+    width: 50vw;
+    height: 5vh;
+    border-radius: 10px;
+    margin-left: 28vw;
+}
+
+button[type="submit"]{
+    width: 50vw;
+    height: 5vh;
+    border: 0;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.mp{
+    background-color: white;
+    padding: 10px;
+    font-size: small;
+    }
+    
+    .mc{
+    background-color: white;
+    padding: 10px;
+    font-size: small;
+    }
+    
+    .sn{
+    background-color: white;
+    padding: 10px;
+    font-size: small;
+    }
+    
+    .contacto{
+    background-color: white;
+    padding: 10px;
+    font-size: small;
+    }
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width:760px){
+#nombre-web{
+    font-size: 2rem;
+}
+}
