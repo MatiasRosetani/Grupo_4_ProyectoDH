@@ -1,0 +1,2 @@
+Como equipo creemos que nos desempeñamos muy bien a la hora de realizar las tareas ya que tuvimos una buena comunicacion y predisposicion por parte de todos los integrantes a escepcion de uno pero pudimos realizarlo de igual manera ya que no se necesitaba de demasiado trabajo para la elaboracion de los wireframes.
+Punto a destacar es que tuvimos 2 reuniones grupales para realizar la entrega en tiempo y forma.
