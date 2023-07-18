@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require ('path');
 const app = express();
 
 app.use('/static', express.static(__dirname + '/public'));
@@ -19,9 +20,9 @@ app.get('/register', (req,res)=>{
 });
 
 app.get ('/carrito', (req, res) => {
-    res.sendFile (path.resolve(dirname, './views/carrito.html'))
+    res.sendFile(__dirname + '/views/carrito.html');
 });
 
 app.get ('/checkout', (req, res) => {
-    res.sendFile (path.resolve(dirname, './views/check-out.html'))
+    res.sendFile(__dirname + '/views/check-out.html');
 });
