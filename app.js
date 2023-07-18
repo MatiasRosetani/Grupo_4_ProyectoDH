@@ -1,4 +1,5 @@
 const express = require('express');
+
 const app = express();
 
 app.use(express.static(__dirname + '/public'));
@@ -18,6 +19,15 @@ app.get('/register', (req,res)=>{
     res.sendFile(__dirname + '/views/register.html');
 });
 
-app.get('/carrito', (req,res)=>{
-    res.sendFile(__dirname + '/views/carrito');
+
+app.get('/carrito', (req, res) => {
+    res.sendFile(__dirname + '/views/carrito.html');
 });
+    
+
+app.get('/checkout', (req, res) => {
+    res.sendFile(__dirname + '/views/check-out.html');
+});
+    
+
+
