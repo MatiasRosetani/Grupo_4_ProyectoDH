@@ -1,5 +1,5 @@
 const express = require('express');
-const path = require ('path');
+
 const app = express();
 
 app.use('/static', express.static(__dirname + '/public'));
@@ -17,17 +17,15 @@ app.get('/login', (req, res) => {
 
 app.get('/register', (req, res) => {
     res.sendFile(__dirname + '/views/register.html');
-
-    app.get('/palabras'), (req, res) => {
-        res.send('palabras random');
-    };
-
-    app.get('/carrito', (req, res) => {
-        res.sendFile(path.resolve(__dirname, './views/carrito.html'))
-    });
-
-    app.get('/checkout', (req, res) => {
-        res.sendFile(path.resolve(__dirname, './views/check-out.html'))
-    });
-
 });
+
+app.get('/carrito', (req, res) => {
+    res.sendFile(__dirname + '/views/carrito.html');
+});
+    
+
+app.get('/checkout', (req, res) => {
+    res.sendFile(__dirname + '/views/check-out.html');
+});
+    
+
