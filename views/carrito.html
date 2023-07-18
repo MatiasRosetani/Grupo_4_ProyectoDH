@@ -4,69 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito de Compras, NFT</title>
-    <link rel="stylesheet" href="/css/carrito.css"> 
-       <nav class="navbar">
-        <img class="logo" src="\img\Logo nft terminado (1).png" alt="imagen logo">
-        <h2 id="nombre-web">NFT ARG</h2>
-            <fieldset class="barra-busqueda">
-                <input type="hidden" name="ie" value="UTF-8" />
-                <input type="hidden" name="oe" value="UTF-8" />
-                <input class="campbus" type="search" id="s" name="q" value="" placeholder="Buscar NFT" />
-                <div class="forbus">
-                </div>
-            </fieldset>
-            
-         
-        <ul class="seccionnavbar">
-            <button class="boton">
-            <li>REGISTRARSE</li></button>
-            <button class="boton">
-            <li>INICIAR SESION</li></button>
-            
-        </ul>
-    </nav>
+    <link rel="stylesheet" href="/public/css/carrito.css">
 </head>
 
 <body>
+<header>
+    <nav class="navbar">
+        <img class="logo" src="/public/img/Logo nft terminado (1).png" alt="imagen logo">
+        <h2 id="nombre-web">NFT ARG</h2>
+        <fieldset class="barra-busqueda">
+            <input type="hidden" name="ie" value="UTF-8" />
+            <input type="hidden" name="oe" value="UTF-8" />
+            <input class="campbus" type="search" id="s" name="q" value="" placeholder="Buscar NFT" />
+            <div class="forbus"></div>
+        </fieldset>
+        <ul class="seccionnavbar">
+            <li><button class="boton">REGISTRARSE</button></li>
+            <li><button class="boton">INICIAR SESION</button></li>
+        </ul>
+    </nav>
+</header>
 
 <main>
-    <video muted autoplay loop>
-        <source src="/public/images/videoplayback.mp4"
-        type="video/mp4">
-      </video>
-      <div class="capa"></div>
-<section class="productos">
-    
-<article class="prod-descripcion">
-        <img class="prod-img" src="\img\lionlegends.jpg" alt="imagen nft">
-    
-    <div class="descripcion-nft">DESCRIPCION DEL NFT</div>
-</article>
-    <div class="comprar">
-    <a href="/checkout"><button type="submit" name="comprar" id="COMPRAR">COMPRAR</button></a>
-    </div>
-</section>
-</main>    
-    
-</body>
+    <section class="productos">
+        <article class="prod-descripcion">
+            <img class="prod-img" src="/public/img/lionlegends.jpg" alt="imagen nft">
+            <div class="descripcion-nft">DESCRIPCION DEL NFT</div>
+        </article>
+        <div class="comprar">
+            <a href="/checkout"><button type="submit" name="comprar" id="COMPRAR">COMPRAR</button></a>
+        </div>
+    </section>
+</main>
 
 <footer>
-
-<section>
-<div class="footer"></div>
-<div class="secciones-footer">
-<p class="mp">MARKET PLACE</p>
-<p class="mc">MI CUENTA</p>
-<p class="sn">SOBRE NOSOTROS</p>
-<p class="contacto">CONTACTO</p>
-
-
-
-</div>
-
-</section>
-
-
-
+    <section>
+        <div class="footer"></div>
+        <div class="secciones-footer">
+            <p class="mp">MARKET PLACE</p>
+            <p class="mc">MI CUENTA</p>
+            <p class="sn">SOBRE NOSOTROS</p>
+            <p class="contacto">CONTACTO</p>
+        </div>
+    </section>
 </footer>
+
+</body>
 </html>
