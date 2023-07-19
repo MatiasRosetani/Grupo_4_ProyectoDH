@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check Out</title>
     <link rel="stylesheet" href="/css/check-out.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <nav class="navbar">
-    <a href="/carrito"><img class="logo" src="\img\Logo nft.png" alt="imagen logo"></a>
+    <a href="/carrito"><img class="logo" src="\img\Logo nft terminado (1).png" alt="imagen logo"></a>
      <h2 id="nombre-web">NFT ARG</h2>
          <fieldset class="barra-busqueda">
              <input type="hidden" name="ie" value="UTF-8" />
@@ -23,18 +24,29 @@
          <button class="boton">
          <li>INICIAR SESION</li></button>
          <button class="boton">
-         <li>CARRITO</li></button>
+         <li><i class="fa-solid fa-cart-shopping fa-2xl" style="color: black;"></i></li></button>
      </ul>
  </nav>
 </head>
 <body>
-<H2 class="proceso-checkout">PROCESO DE CHECK OUT</H2>
+<H2 class="proceso-checkout">Proceso de check out</H2>
 <div class="todo-completo">
 <article class="productos-boton">
-<div class="listado-de-productos">LISTADO DE PRODUCTOS</div>
+<section class="carrito">
+<div class="listado-de-productos">LISTADO DE PRODUCTOS
+<div class="shopping-cart-item">
+    <div class="prod-img"><img src="https://i.seadn.io/gcs/files/5fbdf1258db758f9a675742884a49e53.png?auto=format&dpr=1&w=1000" width="100px" height="100px" alt=""></div>
+</div>
+<div class="shopping-cart-item">
+    <div class="prod-img"><img src="https://i.seadn.io/gcs/files/26d600815c6a0ad731d1956bab766e5e.png?auto=format&dpr=1&w=1000"width="100px" height="100px"  alt=""></div>
+</div>
+<div class="shopping-cart-item">
+    <div class="prod-img"><img src="https://i.seadn.io/gcs/files/00c13b0f62b4e0586cc63ec8cc27bcda.jpg?auto=format&dpr=1&w=1000" width="100px" height="100px" alt=""></div>
+</div></div>
+</section>
 <div class="boton-comprar">
-<button class="boton-reset" type="reset">Cancelar compra</button>
-<button class="boton-submit" type="submit">Finalizar compra</button>
+<button class="boton-reset" type="reset">CANCELAR COMPRA</button>
+<button class="boton-submit" type="submit">FINALIZAR COMPRA</button>
 </div></article>
 <div class="parte-derecha">
 <ul>
@@ -54,6 +66,7 @@
     <option value="American Express">American Express</option></select>
     <ul><input type="radio">3 cuotas</ul>
     <ul><input type="radio">6 cuotas</ul>
+    <ul><input type="radio">9 cuotas</ul>
     <ul><input type="radio">12 cuotas</ul>
 </li>
 </ul>

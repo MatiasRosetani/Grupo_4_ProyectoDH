@@ -2,9 +2,9 @@ const express = require('express');
 
 const app = express();
 
-app.use('/static', express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public'));
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen (3000, () => {
     console.log('Servidor funcionando');
 });
 
@@ -23,7 +23,6 @@ app.get('/carrito', (req, res) => {
     res.sendFile(__dirname + '/views/carrito.html');
 });
     
-
 app.get('/checkout', (req, res) => {
     res.sendFile(__dirname + '/views/check-out.html');
 });

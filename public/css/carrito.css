@@ -5,9 +5,10 @@ box-sizing: border-box;
 }
 
 body{
-background-color: whitesmoke;
 font-family: Arial, Helvetica, sans-serif;
 font-weight: bold;
+background-image: url("https://tezos.com/non-fungible-token/nft_art.jpg");
+background-size: cover;
 }
 
 #nombre-web{
@@ -20,24 +21,26 @@ margin: 10px;
 .logo{
     margin-left: 10px;
     width: 5vw;
-    height: 100%;
+    height: 12vh;
 }
 
 .navbar{
-    background-color: whitesmoke;
     height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    background-color: rgba(255, 255, 255, 0.12);
+color: whitesmoke;
+backdrop-filter: blur(20px);
 }
 
 .seccionnavbar{
     width: 22%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 0.5rem;
     align-items: center;
 }
@@ -48,8 +51,8 @@ margin: 10px;
 }
 
 .boton{
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     border-radius: 10px;
     font-size: 0.5rem;
 }
@@ -84,13 +87,12 @@ border: 0;
 
 .prod-img {
 display: flex;
-width: 40%;
+width: 40vw;
 height: 100%;
 }
 
 .descripcion-nft{
     display: flex;
-    background-color: white;
     color: black;
     align-items: center;
     border-radius: 5px;
@@ -99,6 +101,9 @@ height: 100%;
     height: 100%;
     margin-left: 2vw;
     justify-content: center;
+    background-color: rgba(255, 255, 255, 0.12);
+color: whitesmoke;
+backdrop-filter: blur(20px);
 }
 
 button[type="submit"]{
@@ -107,8 +112,15 @@ button[type="submit"]{
     border: 0;
     font-size: xx-large;
     font-weight: bold;
-    background-color: white;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.12);
+color: black;
+backdrop-filter: blur(20px);
+}
+
+button[type="submit"]:hover{
+    background-color: #efb810;
+    opacity: 0.9;
 }
 
 .comprar{
@@ -120,7 +132,6 @@ button[type="submit"]{
     margin-left: 10vw;
     width: 30vw;
     text-align: center;
-    
 }
 
 .footer{
@@ -146,26 +157,38 @@ footer{
 
 .mp{
 font-size: large;
-background-color: white;
+background-color: rgba(255, 255, 255, 0.12);
+color: whitesmoke;
+backdrop-filter: blur(20px);
 padding: 10px;
+border-radius: 5px;
 }
 
 .mc{
     font-size: large;
-background-color: white;
 padding: 10px;
+border-radius: 5px;
+background-color: rgba(255, 255, 255, 0.12);
+color: whitesmoke;
+backdrop-filter: blur(20px);
 }
 
 .sn{
     font-size: large;
-background-color: white;
 padding: 10px;
+border-radius: 5px;
+background-color: rgba(255, 255, 255, 0.12);
+color: whitesmoke;
+backdrop-filter: blur(20px);
 }
 
 .contacto{
     font-size: large;
-background-color: white;
 padding: 10px;
+border-radius: 5px;
+background-color: rgba(255, 255, 255, 0.12);
+color: whitesmoke;
+backdrop-filter: blur(20px);
 }
 
 
