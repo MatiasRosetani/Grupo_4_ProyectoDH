@@ -1,7 +1,5 @@
-const controlador = {
-    home: (req,res) => {
-        res.send('Home de productos');
-    }
-};
+const path = require('path');
 
-module.exports = controlador;
+login: (req,res) => {
+    res.sendfile(path.resolve(__dirname,'../views/login.ejs'));
+}
