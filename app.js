@@ -8,6 +8,13 @@ app.listen(3000, ()=>{
     console.log('Servidor funcionando');
 });
 
+const mainRouter = require('./routes/mainRouter');
+const userRoutes = require('./routes/userRouter');
+
+app.use('/',mainRouter);
+app.use('/user',userRoutes);
+
+
 /* app.get('/', (req,res)=>{
     res.sendFile(__dirname + '/views/home.html');
 });
