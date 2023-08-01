@@ -1,18 +1,20 @@
+const { log } = require('console');
 const path = require('path');
+
 
 const controllers = {
     login: (req, res) => {
-        res.sendfile(path.resolve(__dirname, '../views/login.ejs'));
+        res.render(path.join(__dirname, '../views/login.ejs'));
     },
     register: (req, res) => {
-        res.sendfile(path.resolve(__dirname, '../views/register.ejs'));
+        res.render(path.join(__dirname, '../views/register.ejs'));
     },
     carrito: (req, res) => {
-        res.sendfile(path.resolve(__dirname, '../views/carrito.ejs'));
+        res.render(path.join(__dirname, '../views/carrito.ejs'));
     },
     checkout: (req, res) => {
-        res.sendfile(path.resolve(__dirname, '../views/check-out.ejs'));
+        res.render(path.join(__dirname, '../views/check-out.ejs'));
     },
 }
 
-module.exports = controllers;
+module.exports = controllers;  
