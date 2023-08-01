@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creación o edición de productos</title>
+</head>
+<body>
+     <input type="text" name="nombre" placeholder="Nombre del producto">
+     <input type="text" name="description" placeholder="Descripcion">
+     <input type="image" name="imagen" placeholder="Imagen">
+     <input type="text" name="category" placeholder="Categoria">
+     <input type="text" name="price" placeholder="Precio">
+
+     <ul>
+        <% productos.forEach((producto) => { %>
+          <li><%= producto %></li>
+        <% }) %>
+      </ul>
+      
+      <h2>Agregar Producto</h2>
+      <form method="POST" action="/agregarProducto">
+        <input type="text" name="nuevoProducto" placeholder="Nombre del producto" required>
+        <button type="submit">Agregar</button>
+      </form>
+      
+      <h2>Quitar Producto</h2>
+      <form method="POST" action="/quitarProducto">
+        <select name="productoAQuitar" required>
+          <% productos.forEach((producto) => { %>
+            <option value="<%= producto %>"><%= producto %></option>
+          <% }) %>
+        </select>
+        <button type="submit">Quitar</button>
+      </form>
+</body>
+</html>
