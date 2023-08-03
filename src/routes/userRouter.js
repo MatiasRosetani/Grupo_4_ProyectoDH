@@ -6,9 +6,7 @@ Router.get ('/login', userController.login);
 Router.get ('/register', userController.register);
 Router.get ('/carrito', userController.carrito);
 Router.get ('/check-out', userController.checkout);
-
-
-
+Router.get ('/crear-quitar-prod', userController.crearProducto);
 
 
 module.exports = Router;
