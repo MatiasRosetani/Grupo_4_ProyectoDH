@@ -15,6 +15,9 @@ const controllers = {
     checkout: (req, res) => {
         res.render(path.join(__dirname, '../views/check-out.ejs'));
     },
+    editarProducto: (req, res) => {
+        res.render(path.join(__dirname, '../views/edicion-prod.ejs'));
+    },
 }
 
 module.exports = controllers;  

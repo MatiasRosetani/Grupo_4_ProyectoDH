@@ -1,8 +1,10 @@
-const { log } = require('console');
+
 const path = require('path');
 
-const controllers = {
+const prodControllers = {
     editarProducto: (req, res) => {
-        res.sendfile(path.resolve(__dirname, '../views/creacion/edicion-prod.ejs'));
-    }
+        res.render(path.join(__dirname, '../views/edicion-prod.ejs'));
+    },
 };
+
+module.exports = prodControllers;
