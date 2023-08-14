@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/createProduct.css">
+  <title>Crear Producto</title>
+</head>
+
+<body>
+  <main id="hero">
+    <section class="form-product">
+      <h4>Crear Nuevo Producto</h4>
+      <form method="POST" action="/product/create">
+        <input class="controls" type="text" name="name" id="name" placeholder="Nombre del producto">
+        <textarea class="controls" name="description" id="description" placeholder="Descripción"></textarea>
+        <input class="controls" type="text" name="image" id="image" placeholder="URL de la imagen">
+        <input class="controls" type="text" name="category" id="category" placeholder="Categoría">
+        <input class="controls" type="text" name="colors" id="colors" placeholder="Colores">
+        <input class="controls" type="number" name="price" id="price" step="0.01" placeholder="Precio">
+        <input class="botons" type="submit" value="Crear Producto">
+      </form>
+    </section>
+    <div class="capa"></div>
+  </main>
+</body>
+
+</html>

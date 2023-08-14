@@ -6,6 +6,7 @@ const methodOverride = require('method-override');
 //Rutas:
 const mainRouter = require('./src/routes/mainRouter');
 const userRoutes = require('./src/routes/userRouter');
+const prodRouter = require('./src/routes/prodRouter');
 
 app.set('view engine', 'ejs');
 
@@ -18,6 +19,7 @@ app.set('views', [
 
 app.use('/', mainRouter);
 app.use('/user', userRoutes);
+app.use('/edit', prodRouter);
 
 
 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/editProducts.css">
+  <title>Editar Producto</title>
+</head>
+
+<body>
+  <main id="hero">
+    <section class="form-product">
+      <h4>Editar Producto</h4>
+      <form method="POST" action="/product/<%= productId %>/edit">
+        <input class="controls" type="text" name="name" id="name" placeholder="Nombre del producto" value="<%= product ? product.name : '' %>">
+        <textarea class="controls" name="description" id="description" placeholder="Descripción"><%= product ? product.description : '' %></textarea>
+        <input class="controls" type="text" name="image" id="image" placeholder="URL de la imagen" value="<%= product ? product.image : '' %>">
+        <input class="controls" type="text" name="category" id="category" placeholder="Categoría" value="<%= product ? product.category : '' %>">
+        <input class="controls" type="text" name="colors" id="colors" placeholder="Colores" value="<%= product ? product.colors : '' %>">
+        <input class="controls" type="number" name="price" id="price" step="0.01" placeholder="Precio" value="<%= product ? product.price : '' %>">
+        <input class="botons" type="submit" value="Guardar Cambios">
+      </form>
+    </section>
+    <div class="capa"></div>
+  </main>
+</body>
+
+</html>
