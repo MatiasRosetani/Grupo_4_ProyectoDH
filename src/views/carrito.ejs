@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<%- include('../views/partials/header') %>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,24 +19,14 @@
     <div class="descripcion-nft">DESCRIPCION DEL NFT</div>
 </article>
     <div class="comprar">
-    <a href="/checkout"><button type="submit" name="comprar" id="COMPRAR">COMPRAR</button></a>
+    <a href="/user/check-out"><button type="submit" name="comprar" id="COMPRAR">COMPRAR</button></a>
     </div>
 </section>
 </main>    
     
 </body>
 
-<footer>
-    <section>
-        <div class="footer"></div>
-        <div class="secciones-footer">
-            <p class="mp">MARKET PLACE</p>
-            <p class="mc">MI CUENTA</p>
-            <p class="sn">SOBRE NOSOTROS</p>
-            <p class="contacto">CONTACTO</p>
-        </div>
-    </section>
-</footer>
+<%- include('../views/partials/footer') %>
 
 </body>
 </html>

@@ -65,22 +65,10 @@ const controllers = {
 
         res.redirect('/user/productsList');
     },
-    edit: function(req,res) {
-        let idProduct = req.params.idProduct;
-
-        let products = [
-            {id: 1, name:'product1'},
-            {id: 2, name:'product2'},
-            {id: 3, name:'product3'},
-            {id: 4, name:'product4'},
-            {id: 5, name:'product5'},
-            {id: 6, name:'product6'},
-        ];
-
-        let productToEdit = products[idProduct];
-
-        res.render('productEdit', {productToEdit: productToEdit});
-    }
+    editarProducto: (req, res) => {
+        res.render(path.join(__dirname, '../views/edicion-prod.ejs'));
+    },
+    
 }
 
 module.exports = controllers;  

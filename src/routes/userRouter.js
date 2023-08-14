@@ -8,7 +8,7 @@ Router.post('/register', userController.create);
 Router.get ('/carrito', userController.carrito);
 Router.get ('/check-out', userController.checkout);
 Router.get ('/search',userController.search);
-Router.get ('/edit/:idProduct',userController.edit);
+Router.get ('/edicion-prod', userController.editarProducto);
 
 
 

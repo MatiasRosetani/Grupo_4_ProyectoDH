@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
+<%- include('../views/partials/header') %>
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +19,7 @@
 <section class="carrito">
 <div class="listado-de-productos">LISTADO DE PRODUCTOS
 <div class="shopping-cart-item">
-    <div class="prod-img"><img src="https://i.seadn.io/gcs/files/5fbdf1258db758f9a675742884a49e53.png?auto=format&dpr=1&w=1000" width="100px" height="100px" alt=""></div>
+  <a href="/creacion/edicion-prod"><div class="prod-img"><img src="https://i.seadn.io/gcs/files/5fbdf1258db758f9a675742884a49e53.png?auto=format&dpr=1&w=1000" width="100px" height="100px" alt=""></div></a>
 </div>
 <div class="shopping-cart-item">
     <div class="prod-img"><img src="https://i.seadn.io/gcs/files/26d600815c6a0ad731d1956bab766e5e.png?auto=format&dpr=1&w=1000"width="100px" height="100px"  alt=""></div>
@@ -54,23 +58,5 @@
 
 </body>
 
-<footer>
-
-    <section>
-    <div class="footer"></div>
-    <div class="secciones-footer">
-    <p class="mp">MARKET PLACE</p>
-    <p class="mc">MI CUENTA</p>
-    <p class="sn">SOBRE NOSOTROS</p>
-    <p class="contacto">CONTACTO</p>
-    
-    
-    
-    </div>
-    
-    </section>
-    
-    
-    
-    </footer>
+<%- include('../views/partials/footer') %>
 </html>
