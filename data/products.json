@@ -1,0 +1,33 @@
+[
+    {
+        "id":1,
+        "title":"NFT 1",
+        "price":0.01,
+        "img":"captura.PNG"
+    },
+    {
+        "id":2,
+        "title":"NFT 2",
+        "price":0.03,
+        "img":"captura.PNG"
+    },
+    {
+        "id":3,
+        "title":"NFT 3",
+        "price":0.05,
+        "img":"captura.PNG"
+    },
+    {
+        "id":4,
+        "title":"NFT 4",
+        "price":0.06,
+        "img":"captura.PNG"
+    },
+    {
+        "id":5,
+        "title":"NFT 5",
+        "price":0.08,
+        "img":"captura.PNG"
+    }
+
+]

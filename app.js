@@ -19,7 +19,7 @@ app.set('views', [
 
 app.use('/', mainRouter);
 app.use('/user', userRoutes);
-app.use('/edit', prodRouter);
+app.use('/products', prodRouter);
 
 
 

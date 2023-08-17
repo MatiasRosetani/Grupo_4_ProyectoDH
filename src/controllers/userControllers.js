@@ -16,6 +16,10 @@ const controllers = {
     checkout: (req, res) => {
         res.render(path.join(__dirname, '../views/check-out.ejs'));
     },
+    profile:(req,res)=>{
+        console.log(req.query);
+        res.send(`Usuario con Id número ${req.params.id}`);
+    },
     productList: (req,res) => {
         let products = [
             {id: 1, name:'product1'},
